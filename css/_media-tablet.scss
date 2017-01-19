@@ -1,0 +1,23 @@
+@media screen and(max-width: 768px) {
+	ul.navBar {
+		padding: 0;
+		width: 21rem;
+		margin: 10px auto;
+		flex-wrap: wrap;
+		border-top: groove 2px $color_celeste_approx;
+		border-bottom: groove 2px $color_celeste_approx;
+	}
+
+	section.main {
+		width: 100%;
+	}
+
+	.c-media {
+		margin-bottom: 1rem;
+		flex-direction: column;
+	}
+
+	.c-media__img > img {
+		margin-bottom: 1rem;
+	}
+}
