@@ -551,6 +551,8 @@ ul.navBar {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 46px;
+  flex-wrap: nowrap;
 }
 
 ul.navBar > li {
@@ -602,10 +604,6 @@ ul.navBar > li {
 }
 
 @media screen and (min-width: 769px) {
-  ul.navBar {
-    min-height: 46px;
-    flex-wrap: nowrap;
-  }
   .c-media {
     align-items: flex-start;
     flex-direction: row;
@@ -616,14 +614,6 @@ ul.navBar > li {
 }
 
 @media screen and (max-width: 768px) {
-  ul.navBar {
-    padding: 0;
-    width: 21rem;
-    margin: 10px auto;
-    flex-wrap: wrap;
-    border-top: groove 2px #ccc;
-    border-bottom: groove 2px #ccc;
-  }
   section.main {
     width: 100%;
   }
@@ -734,6 +724,36 @@ ul.navBar > li > a:hover {
   margin: 10px auto 0 0;
   font-size: 1.5rem;
   display: block;
+}
+
+.headbar {
+  margin: 0;
+  padding: 0;
+  background: url("../images/hanja.png");
+  background-size: 58px 20px;
+  background-repeat: no-repeat;
+  background-position: 20px center;
+  background-color: rgba(128, 128, 255, 0.9);
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.pageHeader {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "KoPub Batang", serif;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.pageHeader > small:last-child {
+  font-size: 1rem;
+  margin-left: 2em;
 }
 
 .slider {
@@ -896,7 +916,7 @@ address > i.material-icons {
 aside.back {
   position: fixed;
   bottom: 40px;
-  right: 20px;
+  right: 2vw;
 }
 
 aside.back > a {

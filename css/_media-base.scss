@@ -2,6 +2,8 @@ ul.navBar {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 46px;
+    flex-wrap: nowrap;
 
     > li {
         width: 5rem;
@@ -52,11 +54,6 @@ ul.navBar {
     }
 }
 @media screen and(min-width: 769px) {
-    ul.navBar {
-        min-height: 46px;
-        flex-wrap: nowrap;
-    }
-
     .c-media {
         align-items: flex-start;
         flex-direction: row;
