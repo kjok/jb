@@ -118,34 +118,36 @@ ul.navBar {
         display: block;
     }
 }
-.headbar{
-  margin:0;
-  padding:0;
+
+.headbar {
+    margin: 0;
+    padding: 0;
     background: $url_13;
     background-size: 58px 20px;
     background-repeat: no-repeat;
     background-position: 20px center;
-      background-color: $color_portage_90_approx;
+    background-color: $color_portage_90_approx;
     height: 40px;
     display: flex;
     align-items: center;
 }
+
 .pageHeader {
-  margin:0;
-  padding:0;
-  width:100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: $font_2, $font_3;
     font-size: 20px;
     color: $color_white_70_approx;
+
     > small:last-child {
         font-size: 1rem;
         margin-left: 2em;
     }
 }
-
 
 .slider {
     width: 480px;
@@ -336,7 +338,6 @@ aside.back {
         }
     }
 }
-
 
 .back i.material-icons {
     font-weight: bold;

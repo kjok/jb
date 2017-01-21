@@ -64,3 +64,17 @@ ul.navBar {
         align-self: flex-start;
     }
 }
+
+@media screen and(min-width: 600px) {
+    section.main.landing {
+  	flex-direction: row;
+  	justify-content: space-between;
+  	align-items: flex-start;
+
+
+  			> section {
+  				flex: 0 1 46%;
+  				display: block;
+  			}
+  }
+}
