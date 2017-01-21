@@ -54,6 +54,22 @@ ul.navBar {
         }
     }
 }
+
+#dharma > .schedule {
+  width: 100%;
+    > div {
+      width: 100%;
+      > ul{
+        padding:10px;
+        border: 3px groove $color_white_rock_50_approx;
+        list-style: none;
+        > li {
+
+        }
+      }
+    }
+}
+
 @media screen and(min-width: 769px) {
     .c-media {
         align-items: flex-start;
@@ -66,15 +82,15 @@ ul.navBar {
 }
 
 @media screen and(min-width: 600px) {
-    section.main.landing {
+    #dharma > .schedule {
+      display: flex;
   	flex-direction: row;
   	justify-content: space-between;
   	align-items: flex-start;
 
-
-  			> section {
-  				flex: 0 1 46%;
-  				display: block;
+  			> div {
+          margin:20px;
+  				flex: 1 1 280px;
   			}
   }
 }

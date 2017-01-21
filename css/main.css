@@ -597,6 +597,20 @@ ul.navBar > li {
   vertical-align: top;
 }
 
+#dharma > .schedule {
+  width: 100%;
+}
+
+#dharma > .schedule > div {
+  width: 100%;
+}
+
+#dharma > .schedule > div > ul {
+  padding: 10px;
+  border: 3px groove rgba(236, 232, 211, 0.5);
+  list-style: none;
+}
+
 @media screen and (min-width: 769px) {
   .c-media {
     align-items: flex-start;
@@ -608,14 +622,15 @@ ul.navBar > li {
 }
 
 @media screen and (min-width: 600px) {
-  section.main.landing {
+  #dharma > .schedule {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
   }
-  section.main.landing > section {
-    flex: 0 1 46%;
-    display: block;
+  #dharma > .schedule > div {
+    margin: 20px;
+    flex: 1 1 280px;
   }
 }
 
@@ -812,6 +827,14 @@ ul.navBar > li > a:hover {
   height: 20px;
 }
 
+#greeting {
+  max-width: 600px;
+}
+
+#dharma {
+  max-width: 600px;
+}
+
 #layout {
   padding: 0;
   width: 480px;
@@ -917,6 +940,7 @@ ul.navBar > li > a:hover {
 .directionlists ol {
   list-style-type: decimal;
   margin-bottom: 10px;
+  padding-left: 0;
 }
 
 address {

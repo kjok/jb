@@ -187,6 +187,7 @@ ul.navBar {
         }
     }
 
+
     label {
         margin: 4px 0 0 4px;
         border: 2px solid $color_mountain_mist_approx;
@@ -201,6 +202,14 @@ ul.navBar {
             height: 20px;
         }
     }
+}
+
+#greeting{
+  max-width: 600px;
+}
+
+#dharma{
+  max-width: 600px;
 }
 
 #layout {
@@ -224,6 +233,7 @@ ul.navBar {
         top: 0;
         z-index: 50;
     }
+
 
     li {
         list-style: none;
@@ -311,6 +321,7 @@ ul.navBar {
     ol {
         list-style-type: decimal;
         margin-bottom: 10px;
+        padding-left: 0;
     }
 }
 
@@ -351,6 +362,7 @@ aside.back {
         }
     }
 }
+
 
 .back i.material-icons {
     font-weight: bold;
