@@ -29,6 +29,12 @@ p {
 	text-align: justify;
 }
 
+li {
+	margin-bottom: 1em;
+font-family: $font_2, $font_3;
+line-height: 1.5;
+}
+
 section.main {
 	margin: 0 auto;
 	padding: 0 20px;
@@ -49,7 +55,7 @@ section.main {
 		align-items: center;
 
 		> h3 {
-			margin: 70px auto 30px;
+			margin: 30px auto;
 			width: 300px;
 			height: 80px;
 			font-size: 24px;
