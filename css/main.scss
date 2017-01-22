@@ -216,16 +216,17 @@ ul.navBar {
     padding: 0;
     width: 480px;
     max-width: 100%;
-    height: 360px;
-    //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    background-color: $color_white_rock_50_approx;
+    //height: 360px;
     box-shadow: 0 10px 20px -5px $black_75;
-    background-image: $url_14;
-    background-size: cover;
-    position: relative;
-    >
-    /* ul {
+    //background-image: $url_14;
+    //background-size: cover;
+    //position: relative;
+    content: $url_14;
+    > ul {
       display: none;
-    }*/
+    }
+    /*
     ul {
         margin: 0;
         padding: 0;
@@ -319,7 +320,7 @@ ul.navBar {
             left: 87%;
             top: 89%;
         }
-    }
+    }*/
 }
 
 .directionlists {
