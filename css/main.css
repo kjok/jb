@@ -828,7 +828,7 @@ ul.navBar > li > a:hover {
 }
 
 #greeting {
-  max-width: 600px;
+  max-width: 500px;
 }
 
 #dharma {
@@ -836,16 +836,19 @@ ul.navBar > li > a:hover {
 }
 
 #layout {
+  margin: 10px auto;
   padding: 0;
   width: 480px;
+  max-width: 100%;
   height: 360px;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
   background-image: url("../images/layout.svg");
-  background-size: 100%;
+  background-size: cover;
   position: relative;
 }
 
-#layout ul {
+#layout >
+ul {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -932,6 +935,12 @@ ul.navBar > li > a:hover {
   position: absolute;
   left: 77%;
   top: 79%;
+}
+
+#layout li:nth-child(13) {
+  position: absolute;
+  left: 87%;
+  top: 89%;
 }
 
 .directionlists dt {
