@@ -208,7 +208,7 @@ ul.navBar {
 }
 
 #dharma {
-    max-width: 600px;
+    max-width: 500px;
 }
 
 #layout {
@@ -223,8 +223,9 @@ ul.navBar {
     //background-size: cover;
     //position: relative;
     content: $url_14;
+
     > ul {
-      display: none;
+        display: none;
     }
     /*
     ul {

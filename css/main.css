@@ -608,8 +608,6 @@ ul.navBar > li {
 
 #dharma > .schedule > div > ul {
   padding: 10px;
-  border: 3px groove rgba(236, 232, 211, 0.5);
-  list-style: none;
 }
 
 @media screen and (min-width: 769px) {
@@ -622,19 +620,21 @@ ul.navBar > li {
   }
 }
 
-@media screen and (min-width: 600px) {
-  #dharma > .schedule {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-  #dharma > .schedule > div {
-    margin: 20px;
-    flex: 1 1 280px;
+/*
+@media screen and(min-width: 600px) {
+    #dharma > .schedule {
+      display: flex;
+  	flex-direction: row;
+  	justify-content: space-between;
+  	align-items: flex-start;
+
+  			> div {
+          margin:20px;
+  				flex: 1 1 280px;
+  			}
   }
 }
-
+*/
 @media screen and (max-width: 768px) {
   section.main {
     width: 100%;
@@ -833,7 +833,7 @@ ul.navBar > li > a:hover {
 }
 
 #dharma {
-  max-width: 600px;
+  max-width: 500px;
 }
 
 #layout {
