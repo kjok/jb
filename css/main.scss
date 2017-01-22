@@ -187,7 +187,6 @@ ul.navBar {
         }
     }
 
-
     label {
         margin: 4px 0 0 4px;
         border: 2px solid $color_mountain_mist_approx;
@@ -204,12 +203,12 @@ ul.navBar {
     }
 }
 
-#greeting{
-  max-width: 600px;
+#greeting {
+    max-width: 600px;
 }
 
-#dharma{
-  max-width: 600px;
+#dharma {
+    max-width: 600px;
 }
 
 #layout {
@@ -234,79 +233,83 @@ ul.navBar {
         z-index: 50;
     }
 
-
     li {
         list-style: none;
         font-size: 12px;
 
-        &:first-child {
-            position: absolute;
-            left: 42%;
-            top: 43%;
+        &:nth-child(1) {
+            position: absolute; //지장전
+            left: 11%;
+            top: 20%;
         }
 
         &:nth-child(2) {
-            position: absolute;
-            left: 52%;
-            top: 43%;
+            position: absolute; //산신각
+            left: 21%;
+            top: 20%;
         }
 
         &:nth-child(3) {
-            position: absolute;
+            position: absolute; //유운당
             left: 62%;
             top: 20%;
         }
 
         &:nth-child(4) {
-            position: absolute;
-            left: 81%;
+            position: absolute; //석조관음보살입상
+            left: 24%;
             top: 43%;
         }
 
         &:nth-child(5) {
-            position: absolute;
-            left: 92%;
+            position: absolute; //나한전
+            left: 42%;
             top: 43%;
         }
 
         &:nth-child(6) {
-            position: absolute;
+            position: absolute; //법당(원통보전)
+            left: 51%;
+            top: 43%;
+        }
+
+        &:nth-child(7) {
+            position: absolute; //청풍루
+            left: 81%;
+            top: 43%;
+        }
+
+        &:nth-child(8) {
+            position: absolute; //종각
+            left: 92%;
+            top: 43%;
+        }
+
+        &:nth-child(9) {
+            position: absolute; //후원
             left: 64%;
             top: 76%;
         }
 
-        &:nth-child(7) {
-            position: absolute;
+        &:nth-child(10) {
+            position: absolute; //요사채 / 종무소
             left: 73%;
             top: 76%;
         }
 
-        &:nth-child(8) {
-            position: absolute;
-            left: 74%;
+        &:nth-child(11) {
+            position: absolute; //해우소(신)
+            left: 72%;
             top: 93%;
         }
 
-        &:nth-child(9) {
-            position: absolute;
-            left: 20%;
-            top: 43%;
-        }
-
-        &:nth-child(10) {
-            position: absolute;
-            left: 21%;
-            top: 20%;
-        }
-
-        &:nth-child(11) {
-            position: absolute;
-            left: 11%;
-            top: 20%;
+        &:nth-child(12) {
+            position: absolute; //해우소(구)
+            left: 84%;
+            top: 93%;
         }
     }
 }
-
 
 .directionlists {
     dt {
@@ -362,7 +365,6 @@ aside.back {
         }
     }
 }
-
 
 .back i.material-icons {
     font-weight: bold;
