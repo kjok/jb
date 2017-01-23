@@ -960,6 +960,10 @@ ul.navBar > li > a:hover {
   padding-left: 0;
 }
 
+.directionlists li {
+  white-space: nowrap;
+}
+
 address {
   margin: 0 auto 12px 0;
   font-style: normal;

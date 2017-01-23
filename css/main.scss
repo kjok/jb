@@ -339,6 +339,10 @@ ul.navBar {
         margin-bottom: 10px;
         padding-left: 0;
     }
+
+    li {
+        white-space: nowrap;
+    }
 }
 
 address {
