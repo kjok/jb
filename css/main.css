@@ -692,30 +692,33 @@ ul.navBar > li > a:hover {
 
 @keyframes panning {
   0% {
-    background-position: 0 0;
+    transform: translate3d(0, 0, 0);
   }
   25% {
-    background-position: 75% 75%;
+    transform: translate3d(-25%, -50%, 0);
   }
   50% {
-    background-position: 75% 0;
+    transform: translate3d(-25%, 0, 0);
   }
   75% {
-    background-position: 0 75%;
+    transform: translate3d(0, -50%, 0);
   }
-  200% {
-    background-position: 0 0;
+  100% {
+    transform: translate3d(0, 0, 0);
   }
 }
 
 .hero {
   position: relative;
-  height: 400px;
   width: 100%;
-  background: #000 url("../images/mountains2.jpg");
-  background-size: 150%;
-  animation: panning 150s infinite linear;
+  height: calc(100vw*7/16);
   z-index: 0;
+  overflow: hidden;
+}
+
+.hero > img {
+  width: 150%;
+  animation: panning 150s infinite linear;
 }
 
 .overlay {
@@ -726,23 +729,22 @@ ul.navBar > li > a:hover {
   height: 100%;
   background: rgba(128, 128, 255, 0.3);
   z-index: 10;
+  display: flex;
+  align-items: center;
 }
 
-.siteHeader {
-  position: absolute;
-  top: 110px;
-  left: 70px;
+.overlay > .siteHeader {
+  margin: 0 0 0 10%;
   padding-top: 56px;
   background: url("../images/hanja.png");
   background-size: 116px 40px;
   background-repeat: no-repeat;
   font-family: "KoPub Batang", serif;
-  font-size: 40px;
+  font-size: 38px;
   color: rgba(255, 255, 255, 0.7);
-  z-index: 20;
 }
 
-.siteHeader > small:last-child {
+.overlay > .siteHeader > small:last-child {
   margin: 10px auto 0 0;
   font-size: 1.5rem;
   display: block;
