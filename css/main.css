@@ -948,6 +948,8 @@ ul.navBar > li > a:hover {
 .directionlists dt {
   width: 10rm;
   font-weight: bold;
+  display: flex;
+  align-items: flex-end;
 }
 
 .directionlists dd {

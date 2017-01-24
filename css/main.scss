@@ -328,6 +328,8 @@ ul.navBar {
     dt {
         width: 10rm;
         font-weight: bold;
+        display: flex;
+        align-items: flex-end;
     }
 
     dd {
