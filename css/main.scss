@@ -152,17 +152,32 @@ ul.navBar {
 }
 
 .slider {
-    width: 480px;
+    width: 100%;
+    max-width: 480px;
     position: relative;
-    padding: 380px 0 0 22px;
     margin: 10px auto;
     display: flex;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    box-sizing: content-box;
+    overflow: hidden;
+    padding-bottom: 100px;
+
+    > .screenbase {
+        width: 100%;
+        z-index: 3;
+
+        > img {
+            width: 100%;
+            padding-bottom: 8px;
+        }
+    }
 
     > img {
         position: absolute;
         left: 0;
         top: 0;
+        z-index: 30;
         //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
         box-shadow: 0 10px 20px -5px $black_75;
         //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
@@ -196,6 +211,7 @@ ul.navBar {
         cursor: pointer;
         transition: all 0.5s;
         opacity: 0.6;
+        z-index: 30;
 
         img {
             display: block;
@@ -204,6 +220,7 @@ ul.navBar {
         }
     }
 }
+
 
 #greeting {
     max-width: 500px;
