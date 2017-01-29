@@ -534,6 +534,10 @@ section.main > section > h4 {
   color: #555;
 }
 
+section.main > section > h4:nth-child(1) {
+  margin-top: 0;
+}
+
 section.main > section > footer {
   width: 100%;
   padding: 20px 0 0 0;
