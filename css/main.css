@@ -479,7 +479,6 @@ p {
 }
 
 li {
-  margin-bottom: 1em;
   font-family: "KoPub Batang", serif;
   line-height: 1.5;
 }
@@ -539,21 +538,6 @@ section.main > section > footer {
   width: 100%;
   padding: 20px 0 0 0;
   text-align: right;
-}
-
-ul.navBar {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-  flex-wrap: nowrap;
-}
-
-ul.navBar > li {
-  width: 5rem;
-  justify-content: center;
-  align-items: center;
 }
 
 .c-media {
@@ -665,12 +649,22 @@ ul.navBar > li {
 }
 
 ul.navBar {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  flex-wrap: nowrap;
   color: rgba(255, 255, 255, 0.9);
+  background-color: navy;
 }
 
 ul.navBar > li {
   width: 5rem;
   list-style-type: none;
+  width: 5rem;
+  justify-content: center;
+  align-items: center;
 }
 
 ul.navBar > li > a {
@@ -679,8 +673,7 @@ ul.navBar > li > a {
   padding: 0.5em 0;
   text-align: center;
   font-family: "Jeju Gothic", sans-serif;
-  color: #000;
-  text-shadow: 1px 0 0 white, 0 1px 0 white, -1px 0 0 white, 0 -1px 0 white;
+  color: white;
   text-decoration: none;
   transition: all 0.5s ease;
   white-space: nowrap;
@@ -778,6 +771,12 @@ ul.navBar > li > a:hover {
 .pageHeader > small:last-child {
   font-size: 1rem;
   margin-left: 2em;
+}
+
+.fullview {
+  width: 100%;
+  max-width: 500px;
+  margin: 30px auto;
 }
 
 .slider {
