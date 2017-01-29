@@ -527,15 +527,11 @@ section.main > section > h3 > i.material-icons::after {
 }
 
 section.main > section > h4 {
-  margin: 20px auto 10px;
+  margin: 20px auto 10px 0;
   font-size: 18px;
   display: flex;
   align-items: center;
   color: #555;
-}
-
-section.main > section > h4:nth-child(1) {
-  margin-top: 0;
 }
 
 section.main > section > footer {
