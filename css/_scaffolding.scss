@@ -85,7 +85,9 @@ section.main {
 			align-items: center;
 			color: $color_fuscous_gray_approx;
 		}
-
+> ul {
+	width:100%;
+}
 		> footer {
 			width: 100%;
 			padding: 20px 0 0 0;
