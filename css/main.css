@@ -887,10 +887,6 @@ ul.navBar > li > a:hover {
   padding-left: 0;
 }
 
-.directionlists li {
-  white-space: nowrap;
-}
-
 address {
   margin: 0 auto 12px 0;
   font-style: normal;
@@ -934,6 +930,7 @@ aside.back > a:hover {
 dl.directionlists {
   margin-top: 20px;
   align-self: flex-start;
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

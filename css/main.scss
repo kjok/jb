@@ -280,10 +280,6 @@ ul.navBar {
         margin-bottom: 10px;
         padding-left: 0;
     }
-
-    li {
-        white-space: nowrap;
-    }
 }
 
 address {
@@ -332,4 +328,5 @@ aside.back {
 dl.directionlists {
     margin-top: 20px;
     align-self: flex-start;
+    width:100%;
 }
