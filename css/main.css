@@ -809,6 +809,7 @@ ul.navBar > li > a:hover {
   position: absolute;
   left: 0;
   top: 0;
+  width: 100%;
   z-index: 30;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
   transition: all 0.5s;
@@ -932,5 +933,3 @@ dl.directionlists {
   align-self: flex-start;
   width: 100%;
 }
-
-/*# sourceMappingURL=main.css.map */
