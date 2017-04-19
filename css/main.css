@@ -549,6 +549,10 @@ section.main > section > footer {
   display: flex;
 }
 
+.c-media > h4 {
+  display: none;
+}
+
 .c-media .c-media__img {
   margin: 0 14px 14px 0;
 }

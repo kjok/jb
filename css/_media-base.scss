@@ -2,7 +2,9 @@
     margin: 12px 0;
     width: 100%;
     display: flex;
-
+    > h4{
+      display:none;
+    }
     .c-media__img {
         margin: 0 14px 14px 0;
     }
