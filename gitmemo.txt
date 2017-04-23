@@ -1,0 +1,17 @@
+[Install git on Ubuntu]
+sudo apt-get install git
+
+git config --global user.name "kjok"
+git config --global user.email "keniok@gmail.com""
+
+
+
+git add --all
+git commit -m "add 2 pictures"
+git push -u origin master
+
+
+
+kjok
+
+sa----gi----1
